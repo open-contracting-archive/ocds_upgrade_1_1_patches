@@ -1,0 +1,149 @@
+{
+  "properties": {
+    "initiationType": {
+      "items": {
+        "properties": {
+          "value": {
+            "codelist": "initiationType.csv"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "status": {
+          "items": {
+            "properties": {
+              "value": {
+                "codelist": "tenderStatus.csv"
+              }
+            }
+          }
+        },
+        "procurementMethod": {
+          "items": {
+            "properties": {
+              "value": {
+                "codelist": "method.csv"
+              }
+            }
+          }
+        },
+        "submissionMethod": {
+          "items": {
+            "properties": {
+              "value": {
+                "openCodelist": true,
+                "codelist": "submissionMethod.csv"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Award": {
+      "properties": {
+        "status": {
+          "items": {
+            "properties": {
+              "value": {
+                "codelist": "awardStatus.csv"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Contract": {
+      "properties": {
+        "status": {
+          "items": {
+            "properties": {
+              "value": {
+                "codelist": "contractStatus.csv"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Milestone": {
+      "properties": {
+        "status": {
+          "items": {
+            "properties": {
+              "value": {
+                "codelist": "milestoneStatus.csv"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TenderUnversioned": {
+      "properties": {
+        "status": {
+          "codelist": "tenderStatus.csv"
+        },
+        "procurementMethod": {
+          "codelist": "method.csv"
+        },
+        "awardCriteria": {
+          "openCodelist": true,
+          "codelist": "awardCriteria.csv"
+        },
+        "submissionMethod": {
+          "openCodelist": true,
+          "codelist": "submissionMethod.csv"
+        }
+      }
+    },
+    "AwardUnversioned": {
+      "properties": {
+        "status": {
+          "codelist": "awardStatus.csv"
+        }
+      }
+    },
+    "ContractUnversioned": {
+      "properties": {
+        "status": {
+          "codelist": "contractStatus.csv"
+        }
+      }
+    },
+    "MilestoneUnversioned": {
+      "properties": {
+        "status": {
+          "codelist": "milestoneStatus.csv"
+        }
+      }
+    },
+    "DocumentUnversioned": {
+      "properties": {
+        "documentType": {
+          "openCodelist": true,
+          "codelist": "documentType.csv"
+        }
+      }
+    },
+    "ClassificationUnversioned": {
+      "properties": {
+        "scheme": {
+          "codelist": "itemClassificationScheme.csv",
+          "openCodelist": true
+        }
+      }
+    },
+    "IdentifierUnversioned": {
+      "properties": {
+        "scheme": {
+          "openCodelist": true,
+          "codelist": "organizationIdentifierRegistrationAgency_iati.csv"
+        }
+      }
+    }
+  }
+}

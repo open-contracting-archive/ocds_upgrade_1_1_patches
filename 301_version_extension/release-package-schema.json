@@ -1,0 +1,26 @@
+{
+  "required": [
+    "uri",
+    "publisher",
+    "publishedDate",
+    "releases",
+    "version"
+  ],
+  "properties": {
+    "version": {
+      "title": "OCDS Schema Version",
+      "description": "The version of the OCDS schema used in this package. Can be expressed as major.minor i.e 1.1, or major.minor.patch i.e 1.0.2",
+      "type": "string",
+      "pattern": "^(\\d+\\.)?(\\d+\\.)(\\d+)$"
+    },
+    "extensions": {
+      "title": "OCDS Extensions",
+      "description": "List of OCDS Extensions used in this package. These should be a url to the extension.json of that extension.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}

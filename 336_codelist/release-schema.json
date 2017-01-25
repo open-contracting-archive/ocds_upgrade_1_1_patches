@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "tag": {
+      "codelist": "releaseTag.csv"
+    },
+    "initiationType": {
+      "codelist": "initiationType.csv"
+    }
+  },
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "status": {
+          "codelist": "tenderStatus.csv"
+        },
+        "procurementMethod": {
+          "codelist": "method.csv"
+        },
+        "awardCriteria": {
+          "openCodelist": true,
+          "codelist": "awardCriteria.csv"
+        },
+        "submissionMethod": {
+          "openCodelist": true,
+          "codelist": "submissionMethod.csv"
+        }
+      }
+    },
+    "Award": {
+      "properties": {
+        "status": {
+          "codelist": "awardStatus.csv"
+        }
+      }
+    },
+    "Contract": {
+      "properties": {
+        "status": {
+          "codelist": "contractStatus.csv"
+        }
+      }
+    },
+    "Milestone": {
+      "properties": {
+        "status": {
+          "codelist": "milestoneStatus.csv"
+        }
+      }
+    },
+    "Document": {
+      "properties": {
+        "documentType": {
+          "openCodelist": true,
+          "codelist": "documentType.csv"
+        }
+      }
+    },
+    "Classification": {
+      "properties": {
+        "scheme": {
+          "codelist": "itemClassificationScheme.csv",
+          "openCodelist": true
+        }
+      }
+    },
+    "Identifier": {
+      "properties": {
+        "scheme": {
+          "openCodelist": true,
+          "codelist": "organizationIdentifierRegistrationAgency_iati.csv"
+        }
+      }
+    }
+  }
+}
