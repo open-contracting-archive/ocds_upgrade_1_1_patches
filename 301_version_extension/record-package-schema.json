@@ -9,7 +9,7 @@
   "properties": {
     "version": {
       "title": "OCDS Schema Version",
-      "description": "The version of the OCDS schema used in this package, expressed as major.minor i.e 1.0 or 1.1."
+      "description": "The version of the OCDS schema used in this package, expressed as major.minor i.e 1.0 or 1.1.",
       "type": "string",
       "pattern": "^(\\d+\\.)(\\d+)$"
     },
